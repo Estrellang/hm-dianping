@@ -131,7 +131,7 @@ mysql -u root -p hmdp < src/main/resources/db/hmdp.sql
 ```yaml
 spring:
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/hmdp?useSSL=false&serverTimezone=UTC
+    url: jdbc:mysql://127.0.0.1:3306/hmdp?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
     username: root
     password: root
   redis:
